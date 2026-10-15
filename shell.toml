@@ -223,6 +223,9 @@ border-alpha     = 0.35
 selection        = "#e8743b"
 selection-alpha  = 0.35
 border-width     = 1
+# Smaller, macOS-proportioned password field (needs Omarchy with lock field-width support).
+field-width      = 300
+field-height     = 52
 
 [image-picker]
 # Carousel-style picker. The picker has no card surface, so `scrim` is
