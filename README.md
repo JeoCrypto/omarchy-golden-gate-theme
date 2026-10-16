@@ -2,7 +2,7 @@
 
 A warm, clean macOS-inspired theme for [Omarchy](https://omarchy.org): charcoal glass, International Orange accents and a minimal bridge-at-dusk wallpaper.
 
-![Golden Gate preview](preview.png)
+![Golden Gate demo: switching live from Omarchy's default theme, then the frosted menu and dock](demo.webp)
 
 ## Install
 
