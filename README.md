@@ -1,10 +1,23 @@
-# Golden Gate
+<p align="center">
+  <img src="banner.jpg" alt="Golden Gate, for Omarchy" width="100%">
+</p>
 
-A warm, clean macOS-inspired theme for [Omarchy](https://omarchy.org): charcoal glass, International Orange accents and a minimal bridge-at-dusk wallpaper.
+<p align="center">
+  <b>A warm, clean, macOS-inspired theme for <a href="https://omarchy.org">Omarchy</a>.</b><br>
+  Charcoal glass · International Orange accents · frosted bar and menus · a bridge-at-dusk wallpaper
+</p>
 
-![Golden Gate demo: switching live from Omarchy's default theme, then the frosted menu and dock](demo.webp)
+<p align="center">
+  <img alt="Omarchy 4" src="https://img.shields.io/badge/Omarchy-4-e8743b?style=flat-square&labelColor=1c1917">
+  <img alt="Omarchy theme" src="https://img.shields.io/badge/Omarchy-theme-e8743b?style=flat-square&labelColor=1c1917">
+  <img alt="MIT licence" src="https://img.shields.io/badge/licence-MIT-e8743b?style=flat-square&labelColor=1c1917">
+</p>
 
-## Install
+<p align="center">
+  <img src="demo.webp" alt="Golden Gate demo: switching live from Omarchy's default theme, then the frosted menu and dock" width="100%">
+</p>
+
+## Get started
 
 ```bash
 omarchy theme install https://github.com/JeoCrypto/omarchy-golden-gate-theme
@@ -12,15 +25,30 @@ omarchy theme install https://github.com/JeoCrypto/omarchy-golden-gate-theme
 
 Then pick **Golden Gate** in the theme menu, or run `omarchy theme set golden-gate`.
 
-## What's included
+## What's inside
 
-- **Palette** (`colors.toml`): warm charcoal backgrounds, soft off-white text, International Orange (`#e8743b`) accent. Terminals, Neovim, btop and every other app Omarchy themes pick it up.
-- **Frosted shell** (`shell.toml`):
-  - Translucent top bar, a little taller (28px).
-  - Translucent popups, menus, launcher and notifications with a thin hairline border instead of a coloured outline.
-  - A lighter backdrop behind the launcher.
-  - A frosted-glass password field on the lock screen.
-- **Wallpapers:** *Golden Gate Dusk* (a minimal bridge silhouette) and *Warm Charcoal* (a plain gradient).
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🎨 A warm palette</h3>
+      Warm charcoal backgrounds, soft off-white text and an International Orange (<code>#e8743b</code>) accent. Terminals, Neovim, btop and every other app Omarchy themes pick it up.
+    </td>
+    <td width="50%" valign="top">
+      <h3>🧊 A frosted shell</h3>
+      A translucent top bar, a little taller (28px). Translucent popups, menus, launcher and notifications with a thin hairline border instead of a coloured outline, and a lighter backdrop behind the launcher.
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <h3>🔒 A glass lock screen</h3>
+      A frosted-glass password field over your blurred wallpaper.
+    </td>
+    <td valign="top">
+      <h3>🌉 Two wallpapers</h3>
+      <i>Golden Gate Dusk</i>, a minimal bridge silhouette, and <i>Warm Charcoal</i>, a plain gradient. Both were made for this theme.
+    </td>
+  </tr>
+</table>
 
 ## Recommended extras
 
@@ -42,10 +70,20 @@ hl.config({
 hl.layer_rule({ match = { namespace = "^(omarchy-bar|omarchy-menu|omarchy-notifications)$" }, blur = true, ignore_alpha = 0.2 })
 ```
 
-For a matching dock, see [Glass Dock](https://github.com/JeoCrypto/omarchy-glass-dock).
+**Fonts used in the demo** (all free):
 
-Fonts used in the preview (all free): [Commit Mono](https://commitmono.com) for terminals and the bar (`otf-commit-mono-nerd`, then `omarchy font set "CommitMono Nerd Font"`), [Atkinson Hyperlegible Next](https://www.brailleinstitute.org/freefont) for menus and apps, and [Literata](https://github.com/googlefonts/literata) for reading.
+- [Commit Mono](https://commitmono.com) for terminals and the bar: install `otf-commit-mono-nerd`, then run `omarchy font set "CommitMono Nerd Font"`
+- [Atkinson Hyperlegible Next](https://www.brailleinstitute.org/freefont) for menus and apps
+- [Literata](https://github.com/googlefonts/literata) for reading
 
-## License
+---
 
-MIT. The wallpapers were made for this theme and are covered by the same license.
+<p align="center">
+  <b>Part of the Golden Gate set for Omarchy</b><br>
+  <a href="https://github.com/JeoCrypto/omarchy-golden-gate-theme">Golden Gate theme</a> ·
+  <a href="https://github.com/JeoCrypto/omarchy-glass-dock">Glass Dock</a> ·
+  <a href="https://github.com/JeoCrypto/omarchy-spotlight-apps">Spotlight Apps</a> ·
+  <a href="https://github.com/JeoCrypto/omarchy-snap-layouts">Snap Layouts</a>
+</p>
+
+<p align="center"><sub>MIT licence. The wallpapers were made for this theme and are covered by the same licence.</sub></p>
